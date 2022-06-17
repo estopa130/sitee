@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volei</title>
+    <style>	
+
+        body {
+            margin: 0;
+            font-family: 'arial';
+        }
+        header{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .inicio img {
+            transition: 0.5s;
+            width: 50%;
+        }
+        .inicio img:hover {
+            filter:none;
+            
+        }
+        .inicio {
+            margin: 0;
+            padding: 0;
+
+        }
+        .headerconteudo {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            margin-right: 10%;
+            gap: 50px;
+            
+        }
+        .headerlink {
+            height: 100%;
+            text-decoration: 0;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            transition: 0.3s;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .headerlink:hover {
+            color: white;
+        }
+        #logo {
+            width: 100px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0 ,0 ,0 ,0.603);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .preço{
+            color: rgb(35, 34, 133);
+            font-size: 22px;
+        }
+        .card a{
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(35, 34, 133);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .cartões {
+            margin-top: 30px;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            gap: 100px;
+            margin-inline: 100px;
+        }
+        .cartões a{
+           padding-inline: 0;
+        }
+        .linha{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #e9e9e9;
+            margin: 5px;
+            margin-inline: 0;
+            align-items: center;
+        }
+        .caixa{
+            font-size: 15px;
+            font-weight: 100;
+            color: rgb(61, 61, 61);
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+        .vermelho{
+            color: rgb(151, 0, 0);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .propaganda{
+            margin-inline: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+        }
+    </style>
+</head>
+<body>
+    <header class="topNav" id="mynav">
+        <a class="inicio" href="../Volei/index.html">
+            <img src="Spanish.png" id="logo"> </a>
+        <div class="headerconteudo">
+            <a class="headerlink" href="../Volei/Camisas.html">Camisas</a>
+            <a class="headerlink" href="../Volei/tenis.html">Tenis</a>
+            <a class="headerlink" href="../Volei/acessórios.html">Acessórios</a>
+            <a class="headerlink" href="../Volei/meias.html">Meias para volei</a>
+            <a class="headerlink" href="../Volei/tornozeleiras.html">Tornozeleiras</a>
+            <a class="headerlink" href="../Volei/contato.html">Contato</a>
+       
+        </div>
+    </header>	
+<!------------------------------------------------------------------------------------->
+    <div class="linha">
+        <div class="caixa">
+            <img src="../Volei/caminhao.svg">
+            <label class="vermelho">Frete grátis</label>
+            <label>Consule o regulamento</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/cartao.svg">
+            <label class="vermelho">Parcelamento</label>
+            <label>Em até 10x</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/moeda.svg">
+            <label>Boleto ou transferência</label>
+            <label class="vermelho">7% de desconto</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/caracorrendo.svg">
+            <label>Entrega</label>
+            <label class="vermelho">Rápida</label>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------->
+    <div class="propaganda">
+        <img src="../Volei/tornozeleiras.webp">
+        <img src="../Volei/meias.webp">
+        <img src="../Volei/manguitos.webp">
+    </div>
+        <div class="cartões">
+            <div class="card">
+                <img src="../Volei/servia.webp" style="width:100%">
+                <h1> Camisa Servia</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Sérvia 2021/22 Azul - S/Nº - Masculina </p>
+                <a> Produto disponível</a>
+            </div>     
+            <div class="card">
+                <img src="../Volei/italia.webp" style="width:100%">
+                <h1> Camisa Servia</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Itália 2021/22 Marinho - S/Nº - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/brasil.webp" style="width:100%">
+                <h1> Camisa Brasil F</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Brasil 2021/22 Amarela - S/Nº - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/china.webp" style="width:100%">
+                <h1> Camisa Servia</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei China 2021/22 Vermelha - S/Nº - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/osasco.webp" style="width:100%">
+                <h1> Camisa Servia</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei CT Osasco 2021/22 Preta - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/japão.webp" style="width:100%">
+                <h1> Camisa Japão</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Japão 2021/22 Preta - S/Nº - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei do Curitiba 202122 Preta - Masculina.webp" style="width:100%">
+                <h1> Camisa do Curitiba</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei do Curitiba 202122 Preta - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei do Natal 202122 Preta - Masculina.webp" style="width:100%">
+                <h1> Camisa do Natal</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei do Natal 202122 Preta - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Osasco 202122 Dourada - Feminina.webp" style="width:100%">
+                <h1> Camisa do Osasco</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Osasco 202122 Dourada - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Osasco 202122 Treino - Feminina.webp" style="width:100%">
+                <h1> Camisa do Osasco</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Osasco 202122 Treino - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa Voleibol 2021 Marinho - Masculina.webp" style="width:100%">
+                <h1> Camisa do Marinho</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa Voleibol 2021 Marinho - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Barueri 202021 Branca - SN° - Feminina.webp" style="width:100%">
+                <h1> Camisa do Barueri</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Barueri 202021 Branca - SN° - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Brasil Retrô Amarelo 2008 - SNº - Feminina.webp" style="width:100%">
+                <h1> Camisa do Brasil</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Brasil Retrô Amarelo 2008 - SNº - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei do Sesi Bauru 202122 Vermelha - Feminina.webp" style="width:100%">
+                <h1> Camisa do Sesi Bauru</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei do Sesi Bauru 202122 Vermelha - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei do Sesi-SP 202021 Rosa - SNº - Masculina.webp" style="width:100%">
+                <h1> Camisa do Sesi-SP</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei do Sesi-SP 202021 Rosa - SNº - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Estados Unidos 202122 Azul - SNº - Masculina.webp" style="width:100%">
+                <h1> Camisa do Estados Unidos</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Estados Unidos 202122 Azul - SNº - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei ItambéMinas Brasil - SN° - Masculina.webp" style="width:100%">
+                <h1> Camisa do ItambéMinas</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei ItambéMinas Brasil - SN° - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Osasco 202122 Verde e Azul - Masculina.webp" style="width:100%">
+                <h1> Camisa do Osasco</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Osasco 202122 Verde e Azul - Masculina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa de Vôlei Taubaté 202021 Preta - SN° - Feminina.webp" style="width:100%">
+                <h1> Camisa do Taubaté</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa de Vôlei Taubaté 202021 Preta - SN° - Feminina</p>
+                <a> Produto disponível</a>
+            </div>  
+            <div class="card">
+                <img src="../Volei/Camisa I Love Volleyball 202122 Azul - Masculina.webp" style="width:100%">
+                <h1> Camisa I Love Volleyball</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Camisa I Love Volleyball 202122 Azul - Masculina</p>
+                <a> Produto disponível</a>
+            </div> 
+            <footer class="topNav" id="mynav">
+                <a class="inicio" href="../Volei/index.html">
+                    <img src="Spanish.png" id="logo"> </a>
+                <div class="headerconteudo">
+                    <a class="headerlink"> © @guilhermeaguiar_18</a>
+                    <a class="headerlink"> Nem maior, nem menor que ninguém.</a>
+                 
+                </div>
+            </footer>	 

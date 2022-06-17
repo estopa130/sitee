@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Volei</title>
+    <style>	
+
+        body {
+            margin: 0;
+            font-family: Georgia;
+            background-color: rgb(255, 255, 255);
+        }
+        footer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        header{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .inicio img {
+            transition: 0.5s;
+            width: 50%;
+        }
+        .inicio img:hover {
+            filter:none;
+            
+        }
+            .inicio {
+            margin: 0;
+            padding: 0;
+
+        }
+        .headerconteudo {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            margin-right: 10%;
+            gap: 50px;
+            
+        }
+        .headerlink {
+            height: 100%;
+            text-decoration: 0;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            transition: 0.3s;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .headerlink:hover {
+            color: white;
+        }
+        #logo {
+            width: 100px;
+        }
+        .banner{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+        #imagembanner{
+            width: 65%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0 ,0 ,0 ,0.603);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: white;
+        }
+        .preço{
+            color: rgb(35, 34, 133);
+            font-size: 22px;
+        }
+        .card a{
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(35, 34, 133);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .cartões {
+            margin-top: 30px;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            gap: 100px;
+            margin-inline: 100px;
+        }
+        .cartões a{
+           padding-inline: 0;
+        }
+        .propaganda{
+            margin-inline: 100px;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+        }
+        .linha{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #f1f1f1;
+            margin: 5px;
+            margin-inline: 0;
+            align-items: center;
+        }
+        .caixa{
+            font-size: 15px;
+            font-weight: 100;
+            color: rgb(61, 61, 61);
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+        .vermelho{
+            color: rgb(151, 0, 0);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .final{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #eaf371;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #myCarousel{
+            width: 75%;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+               
+        </style>
+</head>
+<body>
+    <header class="topNav" id="mynav">
+        <a class="inicio" href="../Volei/index.html">
+            <img src="Spanish.png" id="logo"> </a>
+        <div class="headerconteudo">
+            <a class="headerlink" href="../Volei/Camisas.html">Camisas</a>
+            <a class="headerlink" href="../Volei/tenis.html">Tenis</a>
+            <a class="headerlink" href="../Volei/Acessórios.html">Acessórios</a>
+            <a class="headerlink" href="../Volei/meias.html">Meias para volei</a>
+            <a class="headerlink" href="../Volei/tornozeleiras.html">Tornozeleiras</a>
+            <a class="headerlink" href="../Volei/contato.html">Contato</a>
+       
+        </div>
+
+
+    </header>	
+    
+   
+        
+    </div>
+    <div class="main">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="carossel.png" alt="Chania">
+            <div class="carousel-caption">
+              <h3>Melhores produtos</h3>
+              <p>Forja melhore jogadores</p>
+            </div>
+          </div>
+      
+          <div class="item">
+            <img src="carossel3.png" alt="Chicago">
+            <div class="carousel-caption">
+              <h3>Melhor compania do Brasil</h3>
+              <p>Juntamente com os melhores preços!</p>
+            </div>
+          </div>
+      
+          <div class="item">
+            <img src="carossel4.png" alt="New York" w>
+            <div class="carousel-caption">
+              <h3>Melhorar!</h3>
+              <p>Lutar!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!------------------------------------------------------------------------------------->
+        <div class="linha">
+            <div class="caixa">
+                <img src="../Volei/caminhao.svg">
+                <label class="vermelho">Frete grátis</label>
+                <label>Consule o regulamento</label>
+            </div>
+            <div class="caixa">
+                <img src="../Volei/cartao.svg">
+                <label class="vermelho">Parcelamento</label>
+                <label>Em até 10x</label>
+            </div>
+            <div class="caixa">
+                <img src="../Volei/moeda.svg">
+                <label>Boleto ou transferência</label>
+                <label class="vermelho">7% de desconto</label>
+            </div>
+            <div class="caixa">
+                <img src="../Volei/caracorrendo.svg">
+                <label>Entrega</label>
+                <label class="vermelho">Rápida</label>
+            </div>
+        </div>
+    <!------------------------------------------------------------------------------------->
+    </div>
+<div class="cartões">
+        <div class="card">
+            <img src="../Volei/servia.webp" style="width:100%">
+            <h1> Camisa Servia</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei Sérvia 2021/22 Azul - S/Nº - Masculina </p>
+            <a> Produto disponível</a>
+        </div>     
+        <div class="card">
+            <img src="../Volei/italia.webp" style="width:100%">
+            <h1> Camisa Servia</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei Itália 2021/22 Marinho - S/Nº - Masculina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/brasil.webp" style="width:100%">
+            <h1> Camisa Brasil F</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei Brasil 2021/22 Amarela - S/Nº - Feminina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/china.webp" style="width:100%">
+            <h1> Camisa Servia</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei China 2021/22 Vermelha - S/Nº - Feminina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/osasco.webp" style="width:100%">
+            <h1> Camisa Servia</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei CT Osasco 2021/22 Preta - Masculina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/japão.webp" style="width:100%">
+            <h1> Camisa Japão</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei Japão 2021/22 Preta - S/Nº - Masculina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/asics amarelo.webp" style="width:100%">
+            <h1> Asics Amarelo</h1>
+            <p class="preço">R$ 449,90 </p>
+            <p> Tênis para Vôlei Asics Upcourt 4 Marinho e Amarelo</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/asics azul.webp" style="width:100%">
+            <h1> Asics Azul</h1>
+            <p class="preço"> R$159,99</p>
+            <p> Camisa de Vôlei Japão 2021/22 Preta - S/Nº - Masculina</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/asics rosa.webp" style="width:100%">
+            <h1> Asics Rosa</h1>
+            <p class="preço"> R$ 399,90</p>
+            <p> Tênis para Vôlei Asics Gel-Rebound Marinho e Rosa </p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/garrafa A.webp" style="width:100%">
+            <h1> Garrafa de Água</h1>
+            <p class="preço"> R$49,99</p>
+            <p> Garrafinha de água Squeeze Nike - Azul</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="card">
+            <img src="../Volei/garrafa V.webp" style="width:100%">
+            <h1> Garrafa de Água</h1>
+            <p class="preço"> R$49,99</p>
+            <p> Garrafinha de água Squeeze Nike - Vermelha</p>
+            <a> Produto disponível</a>
+        </div>  
+        <div class="propaganda">
+            <a href="acessórios.html"> 
+            <img src="../Volei/joelheira.webp"> </a>
+            <img src="../Volei/tenis.webp">
+        </div>
+       
+
+    
+        </div>
+</div>     
+<footer class="topNav" id="mynav">
+    <a class="inicio" href="../Volei/index.html">
+        <img src="Spanish.png" id="logo"> </a>
+    <div class="headerconteudo">
+        <a class="headerlink"> © @guilhermeaguiar_18</a>
+        <a class="headerlink"> Nem maior, nem menor que ninguém.</a>
+     
+    </div>
+</footer>	
+</body>
+</html>
+

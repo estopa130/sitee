@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volei</title>
+    <style>	
+
+        body {
+            margin: 0;
+            font-family: 'arial';
+        }
+        header{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .inicio img {
+            transition: 0.5s;
+            width: 50%;
+        }
+        .inicio img:hover {
+            filter:none;
+            
+        }
+        .inicio {
+            margin: 0;
+            padding: 0;
+
+        }
+        .headerconteudo {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            margin-right: 10%;
+            gap: 50px;
+            
+        }
+        .headerlink {
+            height: 100%;
+            text-decoration: 0;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            transition: 0.3s;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .headerlink:hover {
+            color: white;
+        }
+        #logo {
+            width: 100px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0 ,0 ,0 ,0.603);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .preço{
+            color: rgb(35, 34, 133);
+            font-size: 22px;
+        }
+        .card a{
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(35, 34, 133);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .cartões {
+            margin-top: 30px;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            gap: 100px;
+            margin-inline: 100px;
+        }
+        .cartões a{
+           padding-inline: 0;
+        }
+        .linha{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #e9e9e9;
+            margin: 5px;
+            margin-inline: 0;
+            align-items: center;
+        }
+        .caixa{
+            font-size: 15px;
+            font-weight: 100;
+            color: rgb(61, 61, 61);
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+        .vermelho{
+            color: rgb(151, 0, 0);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .propaganda{
+            margin-inline: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+        }
+        .banner{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+        #imagembanner{
+            width: 65%;
+            display: flex;
+            justify-content: center;
+        }
+            
+    </style>
+</head>
+<body>
+    <header class="topNav" id="mynav">
+        <a class="inicio" href="../Volei/index.html">
+            <img src="Spanish.png" id="logo"> </a>
+        <div class="headerconteudo">
+            <a class="headerlink" href="../Volei/Camisas.html">Camisas</a>
+            <a class="headerlink" href="../Volei/tenis.html">Tenis</a>
+            <a class="headerlink" href="../Volei/acessórios.html">Acessórios</a>
+            <a class="headerlink" href="../Volei/meias.html">Meias para volei</a>
+            <a class="headerlink" href="../Volei/tornozeleiras.html">Tornozeleiras</a>
+            <a class="headerlink" href="../Volei/contato.html">Contato</a>
+       
+        </div>
+    </header>	
+
+<!------------------------------------------------------------------------------------->
+    <div class="banner"> 
+        <img src="../Volei/banner.png" id="imagembanner">
+    </div>
+<!------------------------------------------------------------------------------------->
+    <div class="linha">
+        <div class="caixa">
+            <img src="../Volei/caminhao.svg">
+            <label class="vermelho">Frete grátis</label>
+            <label>Consule o regulamento</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/cartao.svg">
+            <label class="vermelho">Parcelamento</label>
+            <label>Em até 10x</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/moeda.svg">
+            <label>Boleto ou transferência</label>
+            <label class="vermelho">7% de desconto</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/caracorrendo.svg">
+            <label>Entrega</label>
+            <label class="vermelho">Rápida</label>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------->
+    <div class="propaganda">
+        <img src="../Volei/tornozeleiras.webp">
+        <img src="../Volei/meias.webp">
+        <img src="../Volei/manguitos.webp">
+    </div>
+        <div class="cartões">
+            <div class="card">
+                <img src="../Volei/Kit Meias Adidas Cano Alto Listrada C3 Pares - Branco+Azul.webp" style="width:100%">
+                <h1> Kit Meias Adidas</h1>
+                <p class="preço"> R$39,99</p>
+                <p> /Kit Meias Adidas Cano Alto Listrada C/3 Pares </p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Meia cano médio para Vôlei - Preto.webp" style="width:100%">
+                <h1> Meia TM7 Sports</h1>
+                <p class="preço"> R$59,99</p>
+                <p> Meia Cano Médio para Vôlei TM7 Sports </p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Meia cano médio para Vôlei - Preto.webp" style=width:100%>
+                <h1> Meia cano médio</h1>
+                <p class="preço"> R$29,99</p>
+                <p> Meia cano médio para Vôlei - Preto</p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Meia New Life Kit 12 Pares Cano Alto Longo Sport Masculina - Preto+Branco.webp" style="width:100%">
+                <h1> Meia New Life Kit</h1>
+                <p class="preço"> R$89,99</p>
+                <p> 12 Pares Cano Alto Longo Sport Masculina</p>
+                <a> Produto disponível</a>
+            </div>            
+            <div class="card">
+                <img src="../Volei/Meia Nike Cano Alto Everyday Cushion Pacote C3 Pares - Branco.webp" style="width:100%">
+                <h1> Meia Nike Cano Alto</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Alto Everyday Cushion Pacote C3 Pares </p>
+                <a> Produto disponível</a>
+            </div>           
+            <div class="card">
+                <img src="../Volei/Meiao-para-volei-Preto2.webp" style="width:100%">
+                <h1> Meião para Vôlei</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Meião simples - Preto </p>
+                <a> Produto disponível</a>   
+            </div>            
+            <div class="card">
+                <img src="../Volei/Meião para Vôlei - Branco.webp" style="width:100%">
+                <h1> Meião simples</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Meião simples - Branco </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Meiao-para-volei-Preto2.webp" style="width:100%">
+                <h1> Manguito para Vôlei</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Meião para Vôlei TM7 Sports - Preto </p>
+                <a> Produto disponível</a>   
+            </div>
+            <footer class="topNav" id="mynav">
+                <a class="inicio" href="../Volei/index.html">
+                    <img src="Spanish.png" id="logo"> </a>
+                <div class="headerconteudo">
+                    <a class="headerlink"> © @guilhermeaguiar_18</a>
+                    <a class="headerlink"> Nem maior, nem menor que ninguém.</a>
+                 
+                </div>
+            </footer>	
+        </div>

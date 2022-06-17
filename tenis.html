@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volei</title>
+    <style>	
+
+        body {
+            margin: 0;
+            font-family: 'arial';
+        }
+        header{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        footer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #d06aff;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .inicio img {
+            transition: 0.5s;
+            width: 50%;
+        }
+        .inicio img:hover {
+            filter:none;
+            
+        }
+        .inicio {
+            margin: 0;
+            padding: 0;
+
+        }
+        .headerconteudo {
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            margin-right: 10%;
+            gap: 50px;
+            
+        }
+        .headerlink {
+            height: 100%;
+            text-decoration: 0;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            transition: 0.3s;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .headerlink:hover {
+            color: white;
+        }
+        #logo {
+            width: 100px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0 ,0 ,0 ,0.603);
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .preço{
+            color: rgb(35, 34, 133);
+            font-size: 22px;
+        }
+        .card a{
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(35, 34, 133);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            font-style: italic;
+        }
+        .cartões {
+            margin-top: 30px;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            gap: 100px;
+            margin-inline: 100px;
+        }
+        .cartões a{
+           padding-inline: 0;
+        }
+        .linha{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 1%;
+            padding-inline: 0;
+            background-color: #e9e9e9;
+            margin: 5px;
+            margin-inline: 0;
+            align-items: center;
+        }
+        .caixa{
+            font-size: 15px;
+            font-weight: 100;
+            color: rgb(61, 61, 61);
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+        .vermelho{
+            color: rgb(151, 0, 0);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .propaganda{
+            margin-inline: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+        }
+        .banner{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+        }
+        #imagembanner{
+            width: 65%;
+            display: flex;
+            justify-content: center;
+        }
+            
+    </style>
+</head>
+<body>
+    <header class="topNav" id="mynav">
+        <a class="inicio" href="../Volei/index.html">
+            <img src="Spanish.png" id="logo"> </a>
+        <div class="headerconteudo">
+            <a class="headerlink" href="../Volei/Camisas.html">Camisas</a>
+            <a class="headerlink" href="../Volei/tenis.html">Tenis</a>
+            <a class="headerlink" href="../Volei/acessórios.html">Acessórios</a>
+            <a class="headerlink" href="../Volei/meias.html">Meias para volei</a>
+            <a class="headerlink" href="../Volei/tornozeleiras.html">Tornozeleiras</a>
+            <a class="headerlink" href="../Volei/contato.html">Contato</a>
+       
+        </div>
+    </header>	
+
+<!------------------------------------------------------------------------------------->
+    <div class="banner"> 
+        <img src="../Volei/banner.png" id="imagembanner">
+    </div>
+<!------------------------------------------------------------------------------------->
+    <div class="linha">
+        <div class="caixa">
+            <img src="../Volei/caminhao.svg">
+            <label class="vermelho">Frete grátis</label>
+            <label>Consule o regulamento</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/cartao.svg">
+            <label class="vermelho">Parcelamento</label>
+            <label>Em até 10x</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/moeda.svg">
+            <label>Boleto ou transferência</label>
+            <label class="vermelho">7% de desconto</label>
+        </div>
+        <div class="caixa">
+            <img src="../Volei/caracorrendo.svg">
+            <label>Entrega</label>
+            <label class="vermelho">Rápida</label>
+        </div>
+    </div>
+<!------------------------------------------------------------------------------------->
+    <div class="propaganda">
+        <img src="../Volei/tornozeleiras.webp">
+        <img src="../Volei/meias.webp">
+        <img src="../Volei/manguitos.webp">
+    </div>
+        <div class="cartões">
+            <div class="card">
+                <img src="../Volei/Tênis Nike Downshifter 11 Feminino - Rosa.webp" style="width:100%">
+                <h1>Tênis Nike /h1>
+                <p class="preço"> R$159,99</p>
+                <p> Downshifter 11 Feminino - Rosa </p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Downshifter 11 Masculino - Preto+Branco.webp" style="width:100%">
+                <h1> Tênis Nike </h1>
+                <p class="preço"> R$159,99</p>
+                <p> Downshifter 11 Masculino - Preto+Branco </p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Run Swift 2 Masculino - Cinza+Preto.webp" style=width:100%>
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Run Swift 2 Masculino - Cinza+Preto </p>
+                <a> Produto disponível</a>
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis New Balance Hierro V6 Masculino - Amarelo.webp" style="width:100%">
+                <h1> Tênis New Balance</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Hierro V6 Masculino - Amarelo </p>
+                <a> Produto disponível</a>
+            </div>            
+            <div class="card">
+                <img src="../Volei/Tênis Nike Legend Essential 2 Masculino - Marinho+Branco.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Legend Essential 2 Masculino </p>
+                <a> Produto disponível</a>
+            </div>           
+            <div class="card">
+                <img src="../Volei/Tênis Nike Legend Essential 2 Masculino - Verde escuro+Preto.webp">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Legend Essential 2 Masculino - Verde </p>
+                <a> Produto disponível</a>   
+            </div>            
+            <div class="card">
+                <img src="../Volei/Tênis Asics Raiden 3 Masculino - Azul+Branco.webp" style="width:100%">
+                <h1> Tênis Asics</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Raiden 3 Masculino </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Asics Gel Equation 11 Masculino - Preto+Vermelho.webp" style="width:100%">
+                <h1> Tênis Asics</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Gel Equation 11 Masculino + Preto+Vermelho </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis New Balance Pesu Masculino - Preto.webp" style="width:100%">
+                <h1> Tênis New Balance </h1>
+                <p class="preço"> R$159,99</p>
+                <p> New Balance Pesu Masculino </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis New Balance Ryval Masculino - Azul+Preto.webp" style="width:100%">
+                <h1> Tênis New Balance</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Ryval Masculino - Azul+Preto </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Adidas Runfalcon 2.0 Feminino - Rosa Claro.webp" >
+                <h1>Tênis Adidas</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Runfalcon 2.0 Feminino </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Revolution 6 Next Nature Masculino - Chumbo+Laranja.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Revolution 6 Next Nature Masculino </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Revolution 6 Next Nature Masculino - Cinza+Azul.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Revolution 6 Next Nature Masculino - Cinza+Azul </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Revolution 6 Next Nature Masculino - Cinza+Prata.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Revolution 6 Next Nature Masculino - Cinza+Prata </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis New Balance 393 Casual Feminino - Azul.webp" style="width:100%">
+                <h1> Tênis New Balance</h1>
+                <p class="preço"> R$159,99</p>
+                <p> 393 Casual Feminino - Azul </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Mc Trainer Feminino - Marinho+Rosa.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Mc Trainer Feminino - Marinho+Rosa </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Revolution 6 Next Nature Feminino - Rosa Bebê.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> Revolution 6 Next Nature Feminino - Rosa Bebê </p>
+                <a> Produto disponível</a>   
+            </div>
+            <div class="card">
+                <img src="../Volei/Tênis Nike Revolution 6 Next Nature Feminino - Rosa+Laranja.webp" style="width:100%">
+                <h1> Tênis Nike</h1>
+                <p class="preço"> R$159,99</p>
+                <p> 6 Next Nature Feminino - Rosa+Laranja </p>
+                <a> Produto disponível</a>   
+            </div>
+            <footer class="topNav" id="mynav">
+                <a class="inicio" href="../Volei/index.html">
+                    <img src="Spanish.png" id="logo"> </a>
+                <div class="headerconteudo">
+                    <a class="headerlink"> © @guilhermeaguiar_18</a>
+                    <a class="headerlink"> Nem maior, nem menor que ninguém.</a>
+                 
+                </div>
+            </footer>	
+        </div>
